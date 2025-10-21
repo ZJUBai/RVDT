@@ -1,0 +1,11 @@
+env: pen
+dataset: human
+use_aug: false
+pct_traj: 0.5
+dataset_postfix: null
+max_ep_len: 1000
+mode: normal
+grad_norm: 9.0
+env_targets:
+  - 12000
+  - 6000

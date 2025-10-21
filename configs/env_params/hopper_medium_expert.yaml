@@ -1,0 +1,12 @@
+env: hopper
+dataset: medium-expert
+use_aug: false
+pct_traj: 0.5
+dataset_postfix: null
+
+mode: normal
+grad_norm: 9.0
+env_targets:
+  - 12000
+  - 9000
+  - 6000

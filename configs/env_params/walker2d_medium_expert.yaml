@@ -1,0 +1,12 @@
+env: walker2d
+dataset: medium-expert
+use_aug: false
+pct_traj: 0.1
+dataset_postfix: null
+
+mode: normal
+grad_norm: 5.0
+env_targets:
+  - 12000
+  - 9000
+  - 6000

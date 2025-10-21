@@ -1,0 +1,17 @@
+defaults:
+  - agent_params: erqt
+  - env_params: halfcheetah_medium_replay
+  - run_params: base
+
+# General
+seed: 123
+device: cuda
+log_to_wandb: true
+save_path: ./save/
+exp_name: test
+
+wandb_params:
+  project: erqt
+  monitor_gym: True
+  save_code: True
+

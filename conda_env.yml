@@ -1,0 +1,17 @@
+name: erqt
+channels:
+  - pytorch
+  - conda-forge
+  - menpo
+dependencies:
+  - anaconda
+  - cudatoolkit=10.2.89
+  - python=3.9
+  - numpy
+  - pip
+  - gcc
+  - glfw3
+  - mesalib
+  - glew
+  - pip:
+    - -r requirements.txt

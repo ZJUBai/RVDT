@@ -1,0 +1,25 @@
+[project]
+name = "qt"
+version = "0.1.0"
+description = "Empowering Decision Transformer with Offline RL"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "cython<3",
+    "d4rl",
+    "dm-control<=1.0.20",
+    "hydra-optuna-sweeper>=1.2.0",
+    "hydra-ray-launcher>=1.2.1",
+    "mujoco<=3.1.6",
+    "numpy==2.0.2",
+    "protobuf==3.20.0",
+    "ruff>=0.9.10",
+    "tensorboard==2.19.0",
+    "torch>=2.6.0",
+    "torch-geometric>=2.6.1",
+    "transformers==4.49.0",
+    "wandb>=0.19.8",
+]
+
+[tool.uv.sources]
+d4rl = { git = "https://github.com/rail-berkeley/d4rl", rev = "master" }

@@ -1,0 +1,16 @@
+env: antmaze
+dataset: large-diverse
+use_aug: false
+pct_traj: 0.3
+dataset_postfix: null
+max_ep_len: 1000
+mode: normal
+grad_norm: 9.0
+env_targets:
+  - 1.0
+  - 0.9
+  - 0.8
+  - 0.7
+  - 0.6
+  - 0.5
+  - 0.3
